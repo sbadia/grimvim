@@ -25,3 +25,27 @@
 [submodule "bundle/puppet-vim"]
 	path = bundle/puppet-vim
 	url = https://github.com/sbadia/puppet-vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/vim-scripts/snipMate.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = https://github.com/tpope/vim-git.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/gitv"]
+	path = bundle/gitv
+	url = https://github.com/gregsexton/gitv.git
+[submodule "bundle/calendar"]
+	path = bundle/calendar
+	url = https://github.com/felipec/notmuch-vim-ruby.git
+[submodule "bundle/vim-rdoc"]
+	path = bundle/vim-rdoc
+	url = https://github.com/depuracao/vim-rdoc.git
+[submodule "bundle/latex-vim"]
+	path = bundle/latex-vim
+	url = https://github.com/jcf/vim-latex.git

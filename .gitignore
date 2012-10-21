@@ -1,0 +1,6 @@
+autoload/
+syntax/
+plugin/
+ftdetect/
+doc/
+.netrwhist
