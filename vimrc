@@ -39,7 +39,7 @@ set nu
 set ruler
 
 " Encoding
-set encoding=utf8
+set encoding=utf-8
 
 " Whitespace stuff
 "set nowrap
@@ -69,6 +69,9 @@ set wildignore+=*.o,*.obj,.git,*.rbc
 
 " Status bar
 set laststatus=2
+let g:Powerline_symbols = 'fancy'
+call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+set term=xterm-256color
 
 " Remember last location in file
 if has("autocmd")
@@ -147,6 +150,7 @@ set modelines=10
 " Default color scheme
 if has('gui_running')
   set background=dark
+  "set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
   "set background=light
   color solarized
 else
@@ -167,10 +171,11 @@ au bufNewFile *.tex 0r ~/.vim/templates/latex.tex
 " Changement d'onglets sous urxvt (norm: alt PG-UP)
 map <F3> <Esc>:tabnext<CR>
 map <F2> <Esc>:tabprevious<CR>
-map <F4> <Esc>:set spell spelllang=fr<CR>
-map <F5> <Esc>:set paste<CR>
-map <F6> :NERDTreeToggle<CR>
-map <F7> :setfiletype mediawiki<CR>
+map <F4> :NERDTreeToggle<CR>
+map <F5> :TagbarToggle<CR>
+map <F7> <Esc>:set spell spelllang=fr<CR>
+map <F6> <Esc>:set paste<CR>
+map <F8> :setfiletype mediawiki<CR>
 
 " Complétion
 "
