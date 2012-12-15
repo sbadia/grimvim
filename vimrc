@@ -6,32 +6,50 @@
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 " Plugins
-" Recurse :-)
-Bundle 'gmarik/vundle.git'
-"
-Bundle 'chikamichi/mediawiki.vim.git'
-Bundle 'scrooloose/syntastic.git'
-Bundle 'altercation/vim-colors-solarized.git'
-Bundle 'tpope/vim-fugitive.git'
-Bundle 'rodjek/vim-puppet.git'
-Bundle 'scrooloose/nerdtree.git'
-Bundle 'scrooloose/nerdcommenter.git'
-Bundle 'scrooloose/nerdsnippets.git'
-Bundle 'sbadia/puppet-vim.git'
-Bundle 'vim-scripts/snipMate.git'
-Bundle 'tpope/vim-git.git'
-Bundle 'tpope/vim-surround.git'
-Bundle 'tpope/vim-markdown.git'
-Bundle 'gregsexton/gitv.git'
-Bundle 'felipec/notmuch-vim-ruby.git'
-Bundle 'depuracao/vim-rdoc.git'
+" Manage plugins Recurse :-)
+Bundle 'gmarik/vundle'
+" Syntax plugins
+Bundle 'chikamichi/mediawiki.vim'
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-unimpaired.git'
+Bundle 'depuracao/vim-rdoc'
+Bundle 'tpope/vim-markdown'
+" Syntax checking through external checkers.
+Bundle 'scrooloose/syntastic'
+" Git integration.
+Bundle 'tpope/vim-fugitive'
+Bundle 'rodjek/vim-puppet'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdsnippets'
+Bundle 'sbadia/puppet-vim'
+Bundle 'vim-scripts/snipMate'
+" Git syntax highlighting
+Bundle 'tpope/vim-git'
+" Surround selection with quotes, parenthesis…
+Bundle 'tpope/vim-surround'
+" Automatically closes quotes, parenthesis, brackets, etc.
+Bundle 'Raimondi/delimitMate'
+" Automatically closes functions, blocks, etc.
+Bundle 'tpope/vim-endwise'
+Bundle 'gregsexton/gitv'
+Bundle 'felipec/notmuch-vim-ruby'
+Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-scripts/bufexplorer.zip'
+" A better stats bar
 Bundle 'Lokaltog/vim-powerline'
+" Aligns text.
+Bundle 'godlygeek/tabular'
+" Browse tags of source code files.
 Bundle 'majutsushi/tagbar'
+" Emacs Org-Mode for Vim.
+Bundle 'jceb/vim-orgmode'
+" Vim latex helpers
 "Bundle 'jcf/vim-latex.git'
+" Example for git style plugin
 "Bundle 'git://git.wincent.com/command-t.git'
+" Color scheme
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'chriskempson/vim-tomorrow-theme'
 
 " Syntaxe, num lignes
 syntax on
@@ -159,6 +177,8 @@ else
 endif
 " let g:solarized_termcolors=256
 
+let g:org_todo_keywords = ['TODO', '|', 'DONE']
+let g:org_plugins = [ 'ShowHide', '|', 'Navigator','EditStructure', '|', 'Todo', 'Date', 'Misc']
 
 " Templates
 " Supprimer les espaces blancs au write
@@ -176,6 +196,8 @@ map <F5> :TagbarToggle<CR>
 map <F7> <Esc>:set spell spelllang=fr<CR>
 map <F6> <Esc>:set paste<CR>
 map <F8> :setfiletype mediawiki<CR>
+map <F11> zr
+map <F12> zm
 
 " Complétion
 "
