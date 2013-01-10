@@ -195,6 +195,7 @@ map <F2> <Esc>:tabprevious<CR>
 map <F4> :NERDTreeToggle<CR>
 map <F5> :TagbarToggle<CR>
 map <F7> <Esc>:set spell spelllang=fr<CR>
+" http://ftp.vim.org/pub/vim/runtime/spell/
 map <F6> <Esc>:set paste<CR>
 map <F8> :setfiletype mediawiki<CR>
 map <F11> zr
