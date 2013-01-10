@@ -87,6 +87,7 @@ set wildignore+=*.o,*.obj,.git,*.rbc
 
 " Status bar
 set laststatus=2
+"python from powerline.ext.vim import source_plugin; source_plugin()
 let g:Powerline_symbols = 'fancy'
 call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
 set term=xterm-256color
