@@ -43,6 +43,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'majutsushi/tagbar'
 " Emacs Org-Mode for Vim.
 Bundle 'jceb/vim-orgmode'
+Bundle 'tpope/vim-speeddating'
 " Vim latex helpers
 "Bundle 'jcf/vim-latex.git'
 " Example for git style plugin
