@@ -1,5 +1,7 @@
 " sbadia vimrc
-"
+set t_Co=256
+set t_AB=^[[48;5;%dm
+set t_AF=^[[38;5;%dm
 " Pathogen
 " call pathogen#infect()
 " Vundle
@@ -35,6 +37,8 @@ Bundle 'gregsexton/gitv'
 Bundle 'felipec/notmuch-vim-ruby'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-scripts/bufexplorer.zip'
+"Bundle 'ervandew/supertab'
+Bundle 'kien/ctrlp.vim'
 " A better stats bar
 Bundle 'Lokaltog/vim-powerline'
 " Aligns text.
@@ -200,6 +204,7 @@ map <F7> <Esc>:set spell spelllang=fr<CR>
 " http://ftp.vim.org/pub/vim/runtime/spell/
 map <F6> <Esc>:set paste<CR>
 map <F8> :setfiletype mediawiki<CR>
+map <F10> <Esc>:s/"/'/g<CR>
 map <F11> zr
 map <F12> zm
 
@@ -208,3 +213,6 @@ map <F12> zm
 " Taper CTRL X CTRL O
 filetype plugin on
 set ofu=syntaxcomplete#Complete
+" espaces
+"highlight NbSp ctermbg=lightgreen guibg=lightred
+"match NbSp /\%xa0/
