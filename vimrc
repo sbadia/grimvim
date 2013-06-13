@@ -23,7 +23,7 @@ Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdsnippets'
-Bundle 'sbadia/puppet-vim'
+Bundle 'sbadia/puppet-snippets'
 Bundle 'vim-scripts/snipMate'
 " Git syntax highlighting
 Bundle 'tpope/vim-git'
