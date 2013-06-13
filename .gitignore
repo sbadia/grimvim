@@ -1,6 +1,9 @@
 bundle/
 autoload/
-syntax/
+syntax/clushconf.vim
+syntax/deb.vim
+syntax/groupsconf.vim
+syntax/notmuch-*
 plugin/
 ftdetect/
 doc/

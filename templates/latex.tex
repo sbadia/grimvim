@@ -1,0 +1,97 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[frenchb]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%% Pour les images
+\usepackage{graphicx}
+%% Pour les marges
+\usepackage{geometry}
+\geometry{hmargin=2.5cm, vmargin=2.5cm}
+%% Pour les liens (en couleur)
+\usepackage[colorlinks=true]{hyperref}
+%% Pour redefinir la numerotation
+%\def\thesection{\arabic\roman\Roman\alph\Alph{section}}
+%% Pour les bouts de code
+\usepackage{listings}
+\usepackage{color}
+\definecolor{gris}{rgb}{0.90,0.90,0.90}
+\definecolor{bleu}{rgb}{0.17,0.49,0.68}
+\definecolor{vert}{rgb}{0.17,0.68,0.22}
+\definecolor{rouge}{rgb}{0.81,0,0}
+\lstset{language=Perl, tabsize=4, backgroundcolor=\color{gris},
+showspaces=false, showstringspaces=false,
+breaklines=true,
+keywordstyle=\color{bleu},
+stringstyle=\ttfamily\color{vert},
+commentstyle=\color{rouge},
+identifierstyle=\color{blue},
+framexleftmargin=2mm, xleftmargin=2mm}
+%% Pour redéfinir les en-têtes
+\usepackage{fancyhdr}
+%% Pour la profondeur de la table des matières
+%\setcounter{tocdepth}{1}
+%% Pour ne pas faire les espaces avant les :
+\makeatletter
+\@ifpackageloaded{babel}%
+        {\newcommand{\nospace}[1]{{\NoAutoSpaceBeforeFDP{}#1}}}%  % !! double {{}} pour cantonner l'effet à l'argument #1 !!
+        {\newcommand{\nospace}[1]{#1}}
+\makeatother
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\begin{minipage}{\linewidth}
+	\vspace*{4cm}
+
+	\begin{center}
+		\vspace{2.5cm}
+		\vfill
+		\begin{Huge}
+			titre\\
+		\end{Huge}
+		\vfill
+		%\includegraphics[width=7cm]{img/camel.png}
+        \vfill
+	\end{center}
+\end{minipage}
+
+
+\vfill
+\begin{minipage}{\linewidth}
+	\begin{minipage}{0.64\linewidth}
+		\begin{Large}
+			~\linebreak
+			~\linebreak
+			~\linebreak
+			Auteurs\\
+		\end{Large}
+
+		\begin{large}
+			\emph{LP ASRALL}\\	
+			\emph{Année universitaire 2009-2010}
+		\end{large}
+	\end{minipage}
+	\begin{minipage}{0.35\linewidth}
+		\begin{center}%
+			\includegraphics[width=2.7cm]{iut.png}
+	
+			\vspace{1mm}
+			Université Nancy 2
+			\vspace{1mm}\\
+			IUT Nancy-Charlemagne
+			\vspace{1mm}\\
+		\end{center}
+	\end{minipage}
+\end{minipage}
+
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagestyle{fancy}
+%\rhead{~}
+\chead{~}
+%\lhead{~}
+\newpage
+
+\end{document}
