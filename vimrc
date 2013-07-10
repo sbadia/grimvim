@@ -59,6 +59,7 @@ Bundle 'chriskempson/vim-tomorrow-theme'
 " Syntaxe, num lignes
 syntax on
 set nu
+"set cul
 set ruler
 
 " Encoding
