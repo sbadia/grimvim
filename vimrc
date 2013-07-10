@@ -170,6 +170,7 @@ vmap <C-Down> ]egv
 " Enable syntastic syntax checking
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=0
+let g:syntastic_ruby_exec='ruby1.9.1'
 
 " Use modeline overrides
 set modeline
