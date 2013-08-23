@@ -171,6 +171,10 @@ vmap <C-Down> ]egv
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=0
 let g:syntastic_ruby_exec='ruby1.9.1'
+let g:syntastic_full_redraws=1
+"let g:syntastic_puppet_puppetlint_args='--no-80chars-check'
+
+"let g:syntastic_debug=1
 
 " Use modeline overrides
 set modeline
