@@ -71,6 +71,7 @@ set encoding=utf-8
 "set tabstop=2
 set shiftwidth=2
 set softtabstop=2
+set mouse=a
 " tabs limits (default: 10)
 set tabpagemax=50
 set expandtab
@@ -205,6 +206,8 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 noremap <C-h> <C-w>h
+nnoremap <silent> <Leader>+ :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> <Leader>- :exe "resize " . (winheight(0) * 2/3)<CR>
 
 " Complétion
 "
