@@ -26,7 +26,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdsnippets'
 Bundle 'sbadia/puppet-snippets'
-Bundle 'vim-scripts/snipMate'
+"Bundle 'vim-scripts/snipMate'
+Bundle 'sbadia/snipmate.vim'
 " Git syntax highlighting
 Bundle 'tpope/vim-git'
 " Surround selection with quotes, parenthesis…
