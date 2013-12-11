@@ -37,9 +37,11 @@ Bundle 'Raimondi/delimitMate'
 " Automatically closes functions, blocks, etc.
 Bundle 'tpope/vim-endwise'
 Bundle 'gregsexton/gitv'
-Bundle 'felipec/notmuch-vim-ruby'
+"Bundle 'felipec/notmuch-vim-ruby'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-scripts/bufexplorer.zip'
+" Pomodoro !
+Bundle 'mnick/vim-pomodoro'
 "Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 " A better stats bar
@@ -60,6 +62,8 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'mrtazz/molokai.vim'
 Bundle 'peaksea'
+" Misc.
+"Bundle 'vim-scripts/DrawIt'
 " Syntaxe, num lignes
 syntax on
 set nu
@@ -72,7 +76,7 @@ set encoding=utf-8
 "set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set mouse=a
+"set mouse=a
 " tabs limits (default: 10)
 set tabpagemax=50
 set expandtab
