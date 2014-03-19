@@ -62,7 +62,9 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'mrtazz/molokai.vim'
+Bundle 'nanotech/jellybeans.vim'
 Bundle 'peaksea'
+" https://github.com/daylerees/colour-schemes
 " Misc.
 "Bundle 'vim-scripts/DrawIt'
 " Syntaxe, num lignes
