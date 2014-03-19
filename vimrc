@@ -47,6 +47,7 @@ Bundle 'pydave/AsyncCommand'
 Bundle 'kien/ctrlp.vim'
 " A better stats bar
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-bufferline'
 " Aligns text.
 Bundle 'godlygeek/tabular'
 " Browse tags of source code files.
@@ -67,6 +68,8 @@ Bundle 'peaksea'
 " https://github.com/daylerees/colour-schemes
 " Misc.
 "Bundle 'vim-scripts/DrawIt'
+Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'airblade/vim-gitgutter'
 " Syntaxe, num lignes
 syntax on
 set nu
