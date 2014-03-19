@@ -46,7 +46,7 @@ Bundle 'pydave/AsyncCommand'
 "Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 " A better stats bar
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 Bundle 'bling/vim-bufferline'
 " Aligns text.
 Bundle 'godlygeek/tabular'
@@ -108,10 +108,19 @@ set wildignore+=*.o,*.obj,.git,*.rbc
 "For regular expressions turn magic on
 set magic
 " Status bar
+" Airline config
 set laststatus=2
-"python from powerline.ext.vim import source_plugin; source_plugin()
-let g:Powerline_symbols = 'fancy'
-call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+let g:airline_powerline_fonts = 1
+let g:airline_theme='murmur'
+"let g:airline_theme=powerlineish
+"let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#bufferline#enabled = 1
+let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#tagbar#enabled = 1
+let g:airline#extensions#hunks#enabled = 1
+let g:airline#extensions#virtualenv#enabled = 1
+let g:airline#extensions#whitespace#enabled = 1
 set term=xterm-256color
 " Remember last location in file
 if has("autocmd")
