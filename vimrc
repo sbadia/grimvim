@@ -52,7 +52,7 @@ Bundle 'godlygeek/tabular'
 " Browse tags of source code files.
 Bundle 'majutsushi/tagbar'
 " Emacs Org-Mode for Vim.
-Bundle 'jceb/vim-orgmode'
+" Bundle 'jceb/vim-orgmode'
 Bundle 'tpope/vim-speeddating'
 " Vim latex helpers
 "Bundle 'jcf/vim-latex.git'
@@ -192,8 +192,6 @@ else
   color desert
 endif
 " let g:solarized_termcolors=256
-let g:org_todo_keywords = ['TODO', '|', 'DONE']
-let g:org_plugins = [ 'ShowHide', '|', 'Navigator','EditStructure', '|', 'Todo', 'Date', 'Misc']
 " Supprimer les espaces blancs au write
 autocmd BufWritePre *.py :%s/\s\+$//e
 " Template fichiers .tex
