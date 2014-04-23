@@ -132,10 +132,6 @@ let mapleader = ","
 noremap <silent><Leader>/ :nohls<CR>
 "Drop vi compat
 set nocompatible
-"Enable personalized syntax"
-filetype off
-"Limit the width of text for mutt to 80 columns
-au BufRead /tmp/mutt* set tw=80
 
 function s:setupWrapping()
   set wrap
@@ -156,12 +152,13 @@ au FileType make set noexpandtab
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Capfile,Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=ruby
 " md, markdown, and mk are markdown and define buffer-local preview
-au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,mdwn} call s:setupMarkup()
-au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,mdwn} set ft=markdown
+au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,mdwn} call s:setupMarkup() | set ft=markdown
 " wrap txt file
 au BufRead,BufNewFile *.txt call s:setupWrapping()
 " make python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
-au FileType python  set tabstop=4 textwidth=80
+au FileType python set tabstop=4 textwidth=80
+"Limit the width of text for mutt to 80 columns
+au BufRead,BufNewFile mutt* set tw=80 | setlocal fo+=aw | set ft=mail
 " Opens an edit command with the path of the currently edited file filled in
 " Normal mode: <Leader>e
 map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
