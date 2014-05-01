@@ -40,11 +40,13 @@ Bundle 'gregsexton/gitv'
 "Bundle 'felipec/notmuch-vim-ruby'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-scripts/bufexplorer.zip'
+Bundle 'jlanzarotta/bufexplorer'
 " Pomodoro !
-Bundle 'mnick/vim-pomodoro'
-Bundle 'pydave/AsyncCommand'
+"Bundle 'mnick/vim-pomodoro'
+"Bundle 'pydave/AsyncCommand'
 "Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
+Bundle 'mileszs/ack.vim'
 " A better stats bar
 Bundle 'bling/vim-airline'
 Bundle 'bling/vim-bufferline'
@@ -65,6 +67,7 @@ Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'mrtazz/molokai.vim'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'peaksea'
+Bundle 'Lokaltog/vim-distinguished'
 " https://github.com/daylerees/colour-schemes
 " Misc.
 "Bundle 'vim-scripts/DrawIt'
