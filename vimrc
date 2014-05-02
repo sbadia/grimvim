@@ -21,6 +21,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'scrooloose/syntastic'
 " Git integration.
 Bundle 'tpope/vim-fugitive'
+Bundle 'int3/vim-extradite'
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
