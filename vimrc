@@ -75,7 +75,8 @@ Bundle 'saltstack/salt-vim'
 " Misc.
 "Bundle 'vim-scripts/DrawIt'
 Bundle 'jmcantrell/vim-virtualenv'
-Bundle 'airblade/vim-gitgutter'
+"Bundle 'airblade/vim-gitgutter'
+Bundle 'mhinz/vim-signify'
 " Syntaxe, num lignes
 syntax on
 set nu
