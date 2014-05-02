@@ -70,6 +70,7 @@ Bundle 'nanotech/jellybeans.vim'
 Bundle 'peaksea'
 Bundle 'Lokaltog/vim-distinguished'
 Bundle 'paranoida/vim-airlineish'
+Bundle 'saltstack/salt-vim'
 " https://github.com/daylerees/colour-schemes
 " Misc.
 "Bundle 'vim-scripts/DrawIt'
