@@ -69,6 +69,7 @@ Bundle 'mrtazz/molokai.vim'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'peaksea'
 Bundle 'Lokaltog/vim-distinguished'
+Bundle 'paranoida/vim-airlineish'
 " https://github.com/daylerees/colour-schemes
 " Misc.
 "Bundle 'vim-scripts/DrawIt'
@@ -115,8 +116,9 @@ set magic
 " Airline config
 set laststatus=2
 let g:airline_powerline_fonts = 1
-let g:airline_theme='murmur'
-"let g:airline_theme=powerlineish
+"let g:airline_theme='murmur'
+"let g:airline_theme='airlineish'
+let g:airline_theme='powerlineish'
 "let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#bufferline#enabled = 1
 let g:airline#extensions#branch#enabled = 1
