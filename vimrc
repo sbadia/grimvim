@@ -58,6 +58,8 @@ Bundle 'majutsushi/tagbar'
 " Emacs Org-Mode for Vim.
 " Bundle 'jceb/vim-orgmode'
 Bundle 'tpope/vim-speeddating'
+Bundle 'farseer90718/vim-taskwarrior'
+Bundle 'saltstack/salt-vim'
 " Vim latex helpers
 "Bundle 'jcf/vim-latex.git'
 " Example for git style plugin
@@ -70,7 +72,6 @@ Bundle 'nanotech/jellybeans.vim'
 Bundle 'peaksea'
 Bundle 'Lokaltog/vim-distinguished'
 Bundle 'paranoida/vim-airlineish'
-Bundle 'saltstack/salt-vim'
 " https://github.com/daylerees/colour-schemes
 " Misc.
 "Bundle 'vim-scripts/DrawIt'
