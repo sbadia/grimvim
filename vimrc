@@ -92,12 +92,12 @@ set shiftwidth=2
 set softtabstop=2
 "set mouse=a
 " tabs limits (default: 10)
-set tabpagemax=50
+set tabpagemax=150
 set expandtab
 set list listchars=tab:\ \ ,trail:·
 set showmatch
 set showcmd
-set autowrite
+"set autowrite
 "set autoindent
 "set copyindent
 set shiftround
