@@ -27,6 +27,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdsnippets'
 Bundle 'sbadia/puppet-snippets'
+Bundle 'SirVer/ultisnips'
 "Bundle 'vim-scripts/snipMate'
 Bundle 'sbadia/snipmate.vim'
 " Git syntax highlighting
