@@ -28,6 +28,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdsnippets'
 Bundle 'sbadia/puppet-snippets'
 Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
 "Bundle 'vim-scripts/snipMate'
 Bundle 'sbadia/snipmate.vim'
 " Git syntax highlighting
@@ -247,3 +248,7 @@ set ofu=syntaxcomplete#Complete
 " espaces
 "highlight NbSp ctermbg=lightgreen guibg=lightred
 "match NbSp /\%xa0/
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
