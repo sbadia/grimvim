@@ -133,6 +133,9 @@ let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#virtualenv#enabled = 1
 let g:airline#extensions#whitespace#enabled = 1
 set term=xterm-256color
+" ultisnips
+let g:snips_author = "Sebastien Badia"
+let g:snips_email = 'seb@sebian.fr'
 " Remember last location in file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
