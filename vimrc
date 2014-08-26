@@ -219,6 +219,8 @@ endif
 " let g:solarized_termcolors=256
 " Supprimer les espaces blancs au write
 autocmd BufWritePre *.py :%s/\s\+$//e
+" spell if txt or md
+autocmd BufEnter *.txt,*.md,mutt-grimoire* setl spell spelllang=fr
 " Template fichiers .tex
 au bufNewFile *.tex 0r ~/.vim/templates/latex.tex
 " Map
