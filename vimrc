@@ -84,6 +84,10 @@ Bundle 'mhinz/vim-signify'
 " Syntaxe, num lignes
 syntax on
 set nu
+" Backup and swap files
+"silent! execute '!mkdir -p ${HOME}/.vimsessions'
+set backupdir=$HOME/.vimsessions
+set directory=$HOME/.vimsessions
 "set cul
 set ruler
 " Encoding
