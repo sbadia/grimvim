@@ -202,11 +202,11 @@ let g:syntastic_full_redraws=1
 let g:syntastic_puppet_puppetlint_args='--no-80chars-check'
 "let g:syntastic_debug=1
 "Pomodoro
-let g:pomodoro_time_work = 25
-let g:pomodoro_time_slack = 5
-let g:pomodoro_do_log = 1
-let g:pomodoro_log_file = "/tmp/pomodoro.log"
-let g:pomodoro_notification_cmd = 'notify-send -u normal -i /home/sbadia/tmp-dev/pomo.png "vim-pomo" "Pomo finished"'
+"let g:pomodoro_time_work = 25
+"let g:pomodoro_time_slack = 5
+"let g:pomodoro_do_log = 1
+"let g:pomodoro_log_file = "/tmp/pomodoro.log"
+"let g:pomodoro_notification_cmd = 'notify-send -u normal -i /home/sbadia/tmp-dev/pomo.png "vim-pomo" "Pomo finished"'
 " Use modeline overrides
 set modeline
 set modelines=10
