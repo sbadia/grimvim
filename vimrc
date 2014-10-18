@@ -1,14 +1,14 @@
 " sbadia vimrc
 " https://github.com/sbadia/grimvim
-"
+
 set t_Co=256
 set t_AB=^[[48;5;%dm
 set t_AF=^[[38;5;%dm
-" Pathogen
-" call pathogen#infect()
+
 " Vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
 " Plugins
 " Manage plugins Recurse :-)
 Bundle 'gmarik/vundle'
@@ -45,9 +45,6 @@ Bundle 'gregsexton/gitv'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'jlanzarotta/bufexplorer'
-" Pomodoro !
-"Bundle 'mnick/vim-pomodoro'
-"Bundle 'pydave/AsyncCommand'
 "Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
@@ -201,12 +198,6 @@ let g:syntastic_ruby_exec='ruby1.9.1'
 let g:syntastic_full_redraws=1
 let g:syntastic_puppet_puppetlint_args='--no-80chars-check'
 "let g:syntastic_debug=1
-"Pomodoro
-"let g:pomodoro_time_work = 25
-"let g:pomodoro_time_slack = 5
-"let g:pomodoro_do_log = 1
-"let g:pomodoro_log_file = "/tmp/pomodoro.log"
-"let g:pomodoro_notification_cmd = 'notify-send -u normal -i /home/sbadia/tmp-dev/pomo.png "vim-pomo" "Pomo finished"'
 " Use modeline overrides
 set modeline
 set modelines=10
