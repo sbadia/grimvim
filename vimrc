@@ -79,6 +79,7 @@ Bundle 'jmcantrell/vim-virtualenv'
 "Bundle 'airblade/vim-gitgutter'
 Bundle 'mhinz/vim-signify'
 Bundle 'terryma/vim-multiple-cursors'
+Bundle 'miyakogi/conoline.vim'
 " Syntaxe, num lignes
 syntax on
 set nu
