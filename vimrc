@@ -242,6 +242,8 @@ noremap <C-l> <C-w>l
 noremap <C-h> <C-w>h
 nnoremap <silent> <Leader>+ :exe "resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> <Leader>- :exe "resize " . (winheight(0) * 2/3)<CR>
+" let terminal resize scale the internal windows
+autocmd VimResized * :wincmd =
 
 " Complétion
 "
