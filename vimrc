@@ -80,6 +80,12 @@ Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'mhinz/vim-signify'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'miyakogi/conoline.vim'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-tbone'
+" https://github.com/t9md?tab=repositories
+Bundle 't9md/vim-choosewin'
+Bundle 'gorkunov/smartpairs.vim'
+"Bundle 'ntpeters/vim-better-whitespace'
 " Syntaxe, num lignes
 syntax on
 set nu
@@ -103,7 +109,7 @@ set expandtab
 set list listchars=tab:\ \ ,trail:·
 set showmatch
 set showcmd
-"set autowrite
+set noautowrite
 "set autoindent
 "set copyindent
 set shiftround
