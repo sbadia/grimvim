@@ -107,7 +107,8 @@ set softtabstop=2
 " tabs limits (default: 10)
 set tabpagemax=150
 set expandtab
-set list listchars=tab:\ \ ,trail:·
+"set list listchars=tab:\ \ ,trail:·
+set list listchars=nbsp:¤,tab:··,trail:¤,extends:▶,precedes:◀
 set showmatch
 set showcmd
 set noautowrite
