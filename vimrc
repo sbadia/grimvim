@@ -154,6 +154,9 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
+command! W w !sudo tee "%" > /dev/null
+"command! W w !sudo dd of=%
+
 let mapleader = ","
 noremap <silent><Leader>/ :nohls<CR>
 "Drop vi compat
