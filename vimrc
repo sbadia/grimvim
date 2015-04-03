@@ -161,6 +161,7 @@ let mapleader = ","
 noremap <silent><Leader>/ :nohls<CR>
 "Drop vi compat
 set nocompatible
+set clipboard=unnamed
 
 function s:setupWrapping()
   set wrap
