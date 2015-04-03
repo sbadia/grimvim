@@ -88,6 +88,7 @@ Bundle 'gorkunov/smartpairs.vim'
 "Bundle 'ntpeters/vim-better-whitespace'
 " Syntaxe, num lignes
 syntax on
+set synmaxcol=200
 set nu
 " Backup and swap files
 "silent! execute '!mkdir -p ${HOME}/.vimsessions'
