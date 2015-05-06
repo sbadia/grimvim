@@ -86,6 +86,7 @@ Bundle 'tpope/vim-tbone'
 Bundle 't9md/vim-choosewin'
 Bundle 'gorkunov/smartpairs.vim'
 "Bundle 'ntpeters/vim-better-whitespace'
+Plugin 'lilydjwg/colorizer'
 " Syntaxe, num lignes
 syntax on
 set synmaxcol=200
