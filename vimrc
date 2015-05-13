@@ -85,7 +85,10 @@ Bundle 'tpope/vim-tbone'
 " https://github.com/t9md?tab=repositories
 Bundle 't9md/vim-choosewin'
 Bundle 'gorkunov/smartpairs.vim'
+Bundle 'chrisbra/vim-diff-enhanced'
+"Bundle 'ryanoasis/vim-webdevicons'
 "Bundle 'ntpeters/vim-better-whitespace'
+Plugin 'editorconfig/editorconfig-vim'
 Plugin 'lilydjwg/colorizer'
 " Syntaxe, num lignes
 syntax on
@@ -220,9 +223,9 @@ set modelines=10
 " Default color scheme
 if has('gui_running')
   set background=dark
-  "set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
   "set background=light
   color solarized
+  set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
 else
   set background=dark
   color desert
