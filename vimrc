@@ -90,6 +90,7 @@ Bundle 'chrisbra/vim-diff-enhanced'
 "Bundle 'ntpeters/vim-better-whitespace'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'lilydjwg/colorizer'
+Plugin 'Quramy/vison'
 " Syntaxe, num lignes
 syntax on
 set synmaxcol=200
