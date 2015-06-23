@@ -79,7 +79,7 @@ Bundle 'jmcantrell/vim-virtualenv'
 "Bundle 'airblade/vim-gitgutter'
 Bundle 'mhinz/vim-signify'
 Bundle 'terryma/vim-multiple-cursors'
-Bundle 'miyakogi/conoline.vim'
+"Bundle 'miyakogi/conoline.vim'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-tbone'
 " https://github.com/t9md?tab=repositories
