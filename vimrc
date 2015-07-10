@@ -70,6 +70,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'mrtazz/molokai.vim'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'peaksea'
+Plugin 'nextval'
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'paranoida/vim-airlineish'
 " https://github.com/daylerees/colour-schemes
@@ -210,6 +211,9 @@ nmap <C-Down> ]e
 " Bubble multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
+" Nextval inc/dec settings
+nmap <silent> <unique> + <Plug>nextvalInc
+nmap <silent> <unique> - <Plug>nextvalDec
 " Enable syntastic syntax checking
 let g:syntastic_enable_signs=1
 "let g:syntastic_quiet_messages = {'level': 'warnings'}
