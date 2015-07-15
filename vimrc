@@ -92,6 +92,7 @@ Plugin 'chrisbra/vim-diff-enhanced'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'lilydjwg/colorizer'
 Plugin 'Quramy/vison'
+Plugin 'Yggdroot/indentLine'
 " Syntaxe, num lignes
 syntax on
 set synmaxcol=200
