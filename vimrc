@@ -62,6 +62,8 @@ Plugin 'farseer90718/vim-taskwarrior'
 Plugin 'saltstack/salt-vim'
 " Vim latex helpers
 "Plugin 'jcf/vim-latex.git'
+Plugin 'lervag/vimtex'
+Plugin 'manicmaniac/betterga'
 " Example for git style plugin
 "Plugin 'git://git.wincent.com/command-t.git'
 " Color scheme
