@@ -157,6 +157,10 @@ set term=xterm-256color
 " ultisnips
 let g:snips_author = "Sebastien Badia"
 let g:snips_email = 'seb@sebian.fr'
+" Identline
+let g:indentLine_char = '┆'
+let g:indentLine_color_term = 239
+let g:indentLine_enabled = 0
 " Remember last location in file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
