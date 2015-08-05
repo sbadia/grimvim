@@ -95,6 +95,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'lilydjwg/colorizer'
 Plugin 'Quramy/vison'
 Plugin 'Yggdroot/indentLine'
+Plugin 'Glench/Vim-Jinja2-Syntax'
 " Syntaxe, num lignes
 syntax on
 set synmaxcol=200
