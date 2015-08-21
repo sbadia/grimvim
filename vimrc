@@ -19,6 +19,7 @@ Plugin 'depuracao/vim-rdoc'
 Plugin 'tpope/vim-markdown'
 " Syntax checking through external checkers.
 Plugin 'scrooloose/syntastic'
+Plugin 'dbakker/vim-lint'
 " Git integration.
 Plugin 'tpope/vim-fugitive'
 Plugin 'int3/vim-extradite'
