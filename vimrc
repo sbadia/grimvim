@@ -145,10 +145,10 @@ set magic
 " Airline config
 set laststatus=2
 let g:airline_powerline_fonts = 1
-"let g:airline_theme='murmur'
+let g:airline_theme='bubblegum'
 "let g:airline_theme='airlineish'
-let g:airline_theme='powerlineish'
-"let g:airline#extensions#tabline#enabled = 1
+"let g:airline_theme='powerlineish'
+let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#bufferline#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#syntastic#enabled = 1
