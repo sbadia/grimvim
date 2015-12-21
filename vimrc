@@ -1,5 +1,6 @@
 " sbadia vimrc
 " https://github.com/sbadia/grimvim
+" https://stackoverflow.com/questions/6951672/how-can-i-insert-a-real-tab-character-in-vim
 
 set t_Co=256
 set t_AB=^[[48;5;%dm
