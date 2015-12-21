@@ -99,6 +99,7 @@ Plugin 'Quramy/vison'
 Plugin 'Yggdroot/indentLine'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'ktonga/vim-follow-my-lead'
+Plugin 'elzr/vim-json'
 " Syntaxe, num lignes
 syntax on
 set synmaxcol=200
@@ -164,7 +165,10 @@ let g:snips_email = 'seb@sebian.fr'
 " Identline
 let g:indentLine_char = '┆'
 let g:indentLine_color_term = 239
-let g:indentLine_enabled = 0
+let g:indentLine_enabled = 1
+let g:indentLine_noConcealCursor=""
+" JSON
+let g:vim_json_syntax_conceal = 0
 " Remember last location in file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
