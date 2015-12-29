@@ -100,6 +100,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'ktonga/vim-follow-my-lead'
 Plugin 'elzr/vim-json'
+Plugin 'breard-r/vim-dnsserial'
 " Syntaxe, num lignes
 syntax on
 set synmaxcol=200
@@ -162,6 +163,8 @@ set term=xterm-256color
 " ultisnips
 let g:snips_author = "Sebastien Badia"
 let g:snips_email = 'seb@sebian.fr'
+" dnsserial
+let g:dnsserial_auto_update = 1
 " Identline
 let g:indentLine_char = '┆'
 let g:indentLine_color_term = 239
