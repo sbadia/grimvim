@@ -53,6 +53,7 @@ Plugin 'jlanzarotta/bufexplorer'
 "Plugin 'mileszs/ack.vim'
 " A better stats bar
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'bling/vim-bufferline'
 " Aligns text.
 Plugin 'godlygeek/tabular'
@@ -102,6 +103,12 @@ Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'ktonga/vim-follow-my-lead'
 Plugin 'elzr/vim-json'
 Plugin 'breard-r/vim-dnsserial'
+" Hashicorp/GCP
+Plugin 'hashivim/vim-terraform'
+Plugin 'hashivim/vim-vaultproject'
+Plugin 'hashivim/vim-consul'
+Plugin 'hashivim/vim-vagrant'
+
 " Syntaxe, num lignes
 syntax on
 set synmaxcol=200
@@ -211,7 +218,10 @@ au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,mdwn} call s:setupMarkup() |
 " wrap txt file
 au BufRead,BufNewFile *.txt call s:setupWrapping()
 " make python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
-au FileType python set tabstop=4 textwidth=80
+"au FileType python set tabstop=4 textwidth=80
+"au FileType python set tabstop=4 textwidth=80
+au FileType python set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expandtab
+
 "Limit the width of text for mutt to 80 columns
 au BufRead,BufNewFile mutt* set tw=80 | setlocal fo+=aw | set ft=mail
 " Opens an edit command with the path of the currently edited file filled in
@@ -236,7 +246,7 @@ nmap <silent> <unique> - <Plug>nextvalDec
 " Enable syntastic syntax checking
 let g:syntastic_enable_signs=1
 "let g:syntastic_quiet_messages = {'level': 'warnings'}
-let g:syntastic_ruby_exec='ruby1.9.1'
+let g:syntastic_ruby_exec='ruby2.3'
 let g:syntastic_full_redraws=1
 let g:syntastic_puppet_puppetlint_args='--no-80chars-check'
 "let g:syntastic_debug=1
