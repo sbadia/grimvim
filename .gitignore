@@ -1,4 +1,4 @@
-bundle/
+plugged/
 autoload/
 syntax/clushconf.vim
 syntax/deb.vim
