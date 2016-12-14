@@ -21,7 +21,7 @@ Plug 'dbakker/vim-lint'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
 Plug 'int3/vim-extradite'
-Plug 'rodjek/vim-puppet'
+Plug 'voxpupuli/vim-puppet'
 "Plug 'dougireton/vim-chef'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
@@ -99,11 +99,14 @@ Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'ktonga/vim-follow-my-lead'
 Plug 'elzr/vim-json'
 Plug 'breard-r/vim-dnsserial'
+Plug 'mhinz/vim-startify'
 " Hashicorp/GCP
 Plug 'hashivim/vim-terraform'
 Plug 'hashivim/vim-vaultproject'
 Plug 'hashivim/vim-consul'
 Plug 'hashivim/vim-vagrant'
+" Gpg
+Plug 'jamessan/vim-gnupg'
 
 " Add plugins to &runtimepath
 call plug#end()
