@@ -14,6 +14,7 @@ Plug 'chikamichi/mediawiki.vim'
 Plug 'vim-ruby/vim-ruby'
 Plug 'depuracao/vim-rdoc'
 Plug 'tpope/vim-markdown'
+Plug 'dpelle/vim-Grammalecte'
 " Syntax checking through external checkers.
 Plug 'scrooloose/syntastic'
 Plug 'dbakker/vim-lint'
@@ -64,6 +65,7 @@ Plug 'tpope/vim-speeddating'
 "Plug 'jcf/vim-latex.git'
 "Plug 'lervag/vimtex'
 Plug 'manicmaniac/betterga'
+Plug 'AndrewRadev/linediff.vim'
 " Example for git style plugin
 "Plug 'git://git.wincent.com/command-t.git'
 " Color scheme
@@ -71,8 +73,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'mrtazz/molokai.vim'
 Plug 'nanotech/jellybeans.vim'
-Plug 'peaksea'
-Plug 'nextval'
+Plug 'vim-scripts/peaksea'
+Plug 'vim-scripts/nextval'
 Plug 'Lokaltog/vim-distinguished'
 Plug 'paranoida/vim-airlineish'
 " https://github.com/daylerees/colour-schemes
@@ -100,12 +102,17 @@ Plug 'ktonga/vim-follow-my-lead'
 Plug 'elzr/vim-json'
 Plug 'breard-r/vim-dnsserial'
 Plug 'mhinz/vim-startify'
+Plug 'chr4/sslsecure.vim'
+Plug 'chr4/nginx.vim'
 " Hashicorp/GCP
 Plug 'hashivim/vim-terraform'
 Plug 'hashivim/vim-vaultproject'
 Plug 'hashivim/vim-consul'
 Plug 'hashivim/vim-vagrant'
-" Gpg
+" https://github.com/ryanoasis/nerd-fonts
+" https://github.com/ryanoasis/vim-devicons
+Plug 'ryanoasis/vim-devicons'
+" Tools
 Plug 'jamessan/vim-gnupg'
 
 " Add plugins to &runtimepath
@@ -182,6 +189,8 @@ let g:indentLine_enabled = 1
 let g:indentLine_noConcealCursor=""
 " JSON
 let g:vim_json_syntax_conceal = 0
+" Grammalecte
+let g:grammalecte_cli_py='~/.config/grammalecte/pythonpath/cli.py'
 " Remember last location in file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
