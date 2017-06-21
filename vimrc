@@ -114,9 +114,16 @@ Plug 'hashivim/vim-vagrant'
 Plug 'ryanoasis/vim-devicons'
 " Tools
 Plug 'jamessan/vim-gnupg'
+Plug 'google/vim-maktaba'
+Plug 'google/vim-codefmt'
+Plug 'google/vim-glaive'
+Plug 'falstro/ghost-text-vim'
 
 " Add plugins to &runtimepath
 call plug#end()
+call glaive#Install()
+" Optional: Enable codefmt's default mappings on the <Leader>= prefix.
+Glaive codefmt plugin[mappings]
 
 " Syntaxe, num lignes
 syntax on
