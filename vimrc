@@ -16,7 +16,7 @@ Plug 'depuracao/vim-rdoc'
 Plug 'tpope/vim-markdown'
 Plug 'dpelle/vim-Grammalecte'
 " Syntax checking through external checkers.
-Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 Plug 'dbakker/vim-lint'
 " Git integration.
 Plug 'tpope/vim-fugitive'
@@ -104,6 +104,7 @@ Plug 'breard-r/vim-dnsserial'
 Plug 'mhinz/vim-startify'
 Plug 'chr4/sslsecure.vim'
 Plug 'chr4/nginx.vim'
+Plug 'chrisbra/csv.vim'
 " Hashicorp/GCP
 Plug 'hashivim/vim-terraform'
 Plug 'hashivim/vim-vaultproject'
@@ -178,7 +179,7 @@ let g:airline_theme='bubblegum'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#bufferline#enabled = 1
 let g:airline#extensions#branch#enabled = 1
-let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
 let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#virtualenv#enabled = 1
@@ -261,13 +262,6 @@ vmap <C-Down> ]egv
 " Nextval inc/dec settings
 nmap <silent> <unique> + <Plug>nextvalInc
 nmap <silent> <unique> - <Plug>nextvalDec
-" Enable syntastic syntax checking
-let g:syntastic_enable_signs=1
-"let g:syntastic_quiet_messages = {'level': 'warnings'}
-let g:syntastic_ruby_exec='ruby2.3'
-let g:syntastic_full_redraws=1
-let g:syntastic_puppet_puppetlint_args='--no-80chars-check'
-"let g:syntastic_debug=1
 " Use modeline overrides
 set modeline
 set modelines=10
