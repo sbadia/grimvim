@@ -1,6 +1,7 @@
 " sbadia vimrc
 " https://github.com/sbadia/grimvim
 " https://stackoverflow.com/questions/6951672/how-can-i-insert-a-real-tab-character-in-vim
+" :set expandtab / :set tabstop=4 / :retab
 
 set t_Co=256
 set t_AB=^[[48;5;%dm
@@ -106,10 +107,10 @@ Plug 'chr4/sslsecure.vim'
 Plug 'chr4/nginx.vim'
 Plug 'chrisbra/csv.vim'
 " Hashicorp/GCP
-Plug 'hashivim/vim-terraform'
-Plug 'hashivim/vim-vaultproject'
-Plug 'hashivim/vim-consul'
-Plug 'hashivim/vim-vagrant'
+"Plug 'hashivim/vim-terraform'
+"Plug 'hashivim/vim-vaultproject'
+"Plug 'hashivim/vim-consul'
+"Plug 'hashivim/vim-vagrant'
 " https://github.com/ryanoasis/nerd-fonts
 " https://github.com/ryanoasis/vim-devicons
 Plug 'ryanoasis/vim-devicons'
@@ -315,6 +316,16 @@ set ofu=syntaxcomplete#Complete
 " espaces
 "highlight NbSp ctermbg=lightgreen guibg=lightred
 "match NbSp /\%xa0/
+
+"https://www.synbioz.com/blog/tech/vim-faites-un-sans-faute
+hi clear SpellBad
+hi clear SpellCap
+hi clear SpellRare
+hi clear SpellLocal
+hi SpellBad   cterm=underline ctermfg=9  ctermbg=0 gui=undercurl
+hi SpellCap   cterm=underline ctermfg=14 ctermbg=0 gui=undercurl
+hi SpellRare  cterm=underline ctermfg=13 ctermbg=0 gui=undercurl
+hi SpellLocal cterm=underline ctermfg=11 ctermbg=0 gui=undercurl
 
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
